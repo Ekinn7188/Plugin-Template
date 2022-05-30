@@ -99,7 +99,6 @@ public class Main extends JavaPlugin {
             try {
                 PluginTabCompleter tabCompleter = completerClass.getDeclaredConstructor().newInstance();
                 for (String commandName : tabCompleter.getNames()) {
-                    System.out.println(commandName);
                     Objects.requireNonNull(Main.getPlugin().getCommand(commandName)).setTabCompleter(tabCompleter);
                 }
             } catch (InstantiationException | IllegalAccessException | InvocationTargetException | NoSuchMethodException e) {
