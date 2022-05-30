@@ -25,8 +25,10 @@ public class PluginTemplate extends PluginCommand{
 
     @Override
     public void execute(CommandSender sender, String[] args) {
-        Config config = Main.config();
-        config.save();
-        config.reload();
+        if (args.length == 1 && args[0].equalsIgnoreCase("reload")) {
+            Config config = Main.config();
+            config.save();
+            config.reload();
+        }
     }
 }
