@@ -48,6 +48,3 @@ It shouldn't need any configuration.
 The ``dbName`` String in ``SQLite#databaseSetup(dbPath, dbName)`` should be the same as the ``dbName`` set in gradle earlier.
 
 * In order to use jooq to interact with the database in code, you need to run the ``generateJooq`` gradle task.
-
-Note to self:
-* Create task cleanServer() and task emptyConfig() in build.gradle.kts after testing plugin
