@@ -1,0 +1,32 @@
+# Check https://www.spigotmc.org/wiki/plugin-yml/ for more info
+
+name: PluginTemplate
+version: 1.0
+api-version: 1.18 # https://www.spigotmc.org/wiki/plugin-yml/#optional-attributes
+description: A template for creating new plugins
+author: Jeeper_
+main: jeeper.Main
+
+commands:
+  test:
+    description: Test command
+    permission: example.permission
+  PluginTemplate:
+    description: Reload configuration files
+    permission: jeeper.plugintemplate
+
+#
+# Default permission values
+#
+# default: true   || always give players the permission
+# default: false  || never give players the permission
+# default: op     || give player permission if they're an operator
+# default: not op || give player permission if they're not an operator
+#
+permissions:
+  example.permission:
+    description: Example permission
+    default: true
+  jeeper.plugintemplate:
+    description: Permission for reloading the plugin
+    default: op
