@@ -85,11 +85,11 @@ val cleanServer by tasks.registering {
 }
 
 val emptyConfig by tasks.registering {
-    delete {
+    delete(
         fileTree(file("${projectDir}/run/plugins/$pluginName")) {
-            include("**/*.yml")
+            include("**.yml")
         }
-    }
+    )
 }
 
 tasks {
