@@ -32,7 +32,7 @@ public class SQLite {
 
 
         Settings settings = new Settings()
-                .withExecuteLogging(false); // Defaults to true
+                .withExecuteLogging(false);
 
         Configuration configuration = new DefaultConfiguration()
                 .set(ds)

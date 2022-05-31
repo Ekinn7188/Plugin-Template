@@ -54,14 +54,14 @@ public abstract class PluginCommand implements CommandExecutor {
     }
 
     /**
-     * Create a command for players only
+     * Create a command for players only.
      * @param player The player who executed the command
      * @param args The arguments passed to the command
      */
     public void execute(Player player, String[] args) {}
 
     /**
-     * Create a command for both players and console
+     * Create a command for both players and console.
      * @param sender The sender who executed the command
      * @param args The arguments passed to the command
      */

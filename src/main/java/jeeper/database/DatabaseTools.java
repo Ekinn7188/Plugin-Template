@@ -7,7 +7,7 @@ import org.jooq.DSLContext;
 import java.util.UUID;
 
 /**
- * A handy class for database operations.
+ * A handy class for handling database operations.
  */
 public class DatabaseTools {
 

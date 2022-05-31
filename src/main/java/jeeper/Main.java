@@ -30,7 +30,7 @@ public class Main extends JavaPlugin {
         // PluginEnable.checkForPluginDependencies(List.of("Plugin1", "Plugin2"), this.getName());
     }
 
-    // onLoad() runs before onEnable()
+    // onLoad() runs before onEnable() does
     @Override
     public void onLoad() {
         plugin = this;

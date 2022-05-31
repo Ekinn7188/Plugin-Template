@@ -5,7 +5,7 @@ import jeeper.utils.config.Config;
 import org.bukkit.command.CommandSender;
 
 /**
- * Command used to reload configuration files without restarting the plugin.
+ * Command used to reload config files without restarting the plugin.
  */
 public class PluginTemplate extends PluginCommand{
     @Override

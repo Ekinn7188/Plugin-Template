@@ -1,7 +1,7 @@
 package jeeper.commands;
 
 /**
- * A list of all permissions used throughout the plugin.
+ * All permissions used throughout the plugin.
  */
 public enum Permission {
     PERMISSION("example.permission"),

@@ -12,12 +12,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A class used to help create tab-completers for commands.
+ * A class used to help create tab completers for commands.
  */
 public abstract class PluginTabCompleter implements TabCompleter {
 
     /**
-     * @return The name of the command this tab-completer is for.
+     * @return The name of the command this tab completer is for.
      **/
     abstract public List<String> getNames();
 

@@ -6,7 +6,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 /**
- * An example command to show what the PluginCommand class can do.
+ * An example command to show what the PluginCommand class does.
  */
 public class TestCommand extends PluginCommand {
 
